@@ -1,0 +1,89 @@
+.bgpic {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+
+.p2{
+    text-align:start;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 600px;
+
+}
+#form{
+  margin-left: 36%;
+  margin-top: -13%;
+  font-weight: bolder;
+  font-size: x-large;
+  position: absolute;
+}
+
+#imgl{
+   z-index: -1;
+   margin-top: 5%;
+   margin-left: 31%;
+   width: 700px;
+}
+#imgl1{
+  z-index: -1;
+   margin-left: 31%;
+   width: 700px;
+ 
+}
+#imgl2{
+  z-index: -1;
+   margin-left: 31%;
+   width: 700px;
+}
+#header{
+padding-left: 40%;
+padding-top: 2%;
+}
+
+.newnote{
+  background-image: url(notebg.png);
+  padding: 15px;
+  margin-top: 5%;
+  width: 250px;
+  height: 300px;
+  float: left;
+  background-repeat: no-repeat;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+.newnote button{
+  margin-left: 100px;
+ border: none;
+ background-color: transparent;
+ display: none;
+}
+.newnote:hover button{
+  display: block;
+}
+
+.datentime{
+  padding-top: 1%;
+ padding-left: 2%;
+}
+.notemission{
+  padding-top: 10%;
+  padding-right: 80%;
+  width: 170px;
+  height: 170px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-size: contain;
+}
